@@ -17,7 +17,7 @@ Este repositorio contiene el código para registrar con un fotómetro casero el 
 + recordBH1750.py contiene el programa que controla el tiempo de muestreo y guarda los datos en un archivo dats.csv
 + datos.csv contiene los datos registrados durante las ejecuciones del programa recordBH1750.py.
 + results.ipynb muestra los resultados básicos (por ejemplo gráficas) obtenidos durante el experimento a partir del archivo datos.csv
-+ La carpeta sreenShots contiene imágenes que muestran cómo usar los programas
++ La carpeta ímagenes contiene imágenes que muestran cómo usar los programas 
 
 **Nota:** Cada vez que ejecuta el programa recordBH1750.py y se tiene conectado el Arduino con el sensor BH1750, el archivo datos.csv se modifica agregando al final del archivo los datos correspondientes a la ejecución.
 
