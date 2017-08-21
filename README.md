@@ -10,7 +10,7 @@ Este repositorio contiene el código para registrar con un fotómetro casero el 
 + Arduino IDE (para descargar el programa readBH1750.ino al Arduino)
 + Python 3.x (para guardar los datos en un archivo datos.csv). Si no se tiene experiencia utilizando python se recomienda instalar [Anaconda](https://www.continuum.io/downloads).
 
-**Nota:** El archivo recordBH1750.py se ha testeado en Python 3.5.2 únicamente, pero debe funcionar sin muchas dificultades en otras versiones
+**Nota:** El archivo recordBH1750.py se ha testeado en Python 3.5.2 en Windows 7 únicamente, pero debe funcionar sin muchas dificultades en otras versiones y otras plataformas.
 
 ## Descripción del repositorio
 + readBH1750.ino dentro de la carpeta readBH1750 contiene el programa para leer el sensor controlando el tiempo de muestreo desde el computador. Este se programa es el que se debe compilar y descargar al Arduino.
