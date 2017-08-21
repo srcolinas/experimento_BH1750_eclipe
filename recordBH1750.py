@@ -72,7 +72,7 @@ if __name__ == '__main__':
                         help="nombre del puerto de comunicacion")
     parser.add_argument('-dt', '--dt',
                         help="intervalo de muestreo en segundos",
-                        type=int,
+                        type=float,
                         default=30)
     args = parser.parse_args()
             
@@ -80,7 +80,7 @@ if __name__ == '__main__':
     reader.start()
     
     counter = 0
-    print("Saving time every {} seconds ...".format(args.dt))
+    print("Guardando datos cada {} segundos ...".format(args.dt))
     
     with open('datos.csv', 'a') as file:
         try: 
