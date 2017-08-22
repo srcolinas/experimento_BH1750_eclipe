@@ -1,5 +1,5 @@
 # experimento_BH1750_eclipe
-Este repositorio contiene el código para registrar con un fotómetro casero el eclipse del 21 de agosto de 2017.
+Este repositorio contiene el código para registrar con un fotómetro casero el eclipse del 21 de agosto de 2017. Este repositorio se realiza para colaborar con el proyecto [Aristarco](http://astronomia-udea.co/aristarco/) de la UdeA, La Sociedad Antioqueña de Astronomía y el Planetario de Medellín.
 
 **Materiales**
 + [Arduino](https://www.arduino.cc/)
